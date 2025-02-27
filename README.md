@@ -4,3 +4,19 @@
 تصاویر 
 ![Screenshot 2025-02-27 161132](https://github.com/user-attachments/assets/f8a119c9-ce30-4490-bc74-3bf64e6fab3c)
 
+
+╔════════════════════════════════╗
+║  ⌨️  T3CH_T3@M  💻           ║
+║  { "code": "running..." }      ║
+║  [🔹 SYS CONNECTED 🔹]        ║
+╚════════════════════════════════╝
+
+
+YouTube :
+https://youtube.com/@tech_team_26
+
+Instagram : 
+https://www.instagram.com/tech_team.tv
+
+telegram
+https://t.me/tech0team
