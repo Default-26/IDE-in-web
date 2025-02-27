@@ -1,0 +1,88 @@
+/* قاب موبایل */
+.mobile-frame {
+    width: 390px; /* عرض iPhone 12 */
+    height: 844px; /* ارتفاع iPhone 12 */
+    border: 10px solid #000000; /* قاب خاکستری */
+    border-radius: 36px; /* گوشه‌های گرد */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* سایه */
+    overflow: hidden; /* مطمئن شوید که محتوا از قاب خارج نمی‌شود */
+    background-color: #fff; /* پس‌زمینه سفید */
+    position: relative;
+}
+
+/* iframe داخل قاب موبایل */
+.mobile-frame iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 20px; /* گوشه‌های گرد برای محتوای داخل قاب */
+    background-color: #fff; /* پس‌زمینه سفید */
+}
+
+/* استایل‌های سفارشی برای قاب ویرایشگر */
+#editor-container {
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #1a1a1a; /* پس‌زمینه مشکی */
+    color: #fff; /* متن سفید */
+}
+
+#editor {
+    border-radius: 8px;
+    background-color: #1a1a1a; /* رنگ پس‌زمینه ویرایشگر */
+    color: #fff; /* متن سفید */
+}
+
+/* استایل پاپ‌آپ */
+.popup {
+    display: none; /* پاپ‌آپ به صورت پیش‌فرض مخفی است */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background-color: #333; /* پس‌زمینه خاکستری */
+    border: 1px solid #444; /* حاشیه خاکستری تیره */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    border-radius: 10px;
+    color: #fff; /* متن سفید */
+}
+
+/* استایل پس‌زمینه تاریک */
+.overlay {
+    display: none; /* پس‌زمینه به صورت پیش‌فرض مخفی است */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* پس‌زمینه مشکی با شفافیت */
+    z-index: 999;
+}
+
+/* استایل دکمه بستن پاپ‌آپ */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff; /* متن سفید */
+}
+
+/* استایل‌های سفارشی برای دکمه‌ها */
+button {
+    background-color: #333; /* پس‌زمینه خاکستری */
+    color: #fff; /* متن سفید */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #444; /* پس‌زمینه خاکستری تیره هنگام hover */
+}
